@@ -7,7 +7,7 @@ class  About extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            campsites: PARTNERS
+            partners: PARTNERS
         }
     }
 
