@@ -164,7 +164,7 @@ export const addComment = comment => ({
 export const postFavorite =campsiteId => dispatch => {
     setTimeout(() => {
         dispatch(addFavorite(campsiteId));
-    }, 2000)
+    }, 500) //decreased the delay
 };
 
 export const addFavorite = campsiteId => ({
